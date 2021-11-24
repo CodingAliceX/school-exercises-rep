@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int num1, num2, num3;
     char pnt = '*';
-    cout << "Inserire il primo numero :";
+    cout << "Inserire il primo numero :"; 
     cin >> num1;
     cout << "Inserire il secondo numero :";
     cin >> num2;
@@ -20,5 +20,4 @@ int main() {
     cout << num2 << '\t' << calcR2P1 << '\t' << calcR2P2 << '\t' << calcR2P3 << endl;
     cout << num3 << '\t' << calcR3P1 << '\t' << calcR3P2 << '\t' << calcR3P3 << endl;
     return(0);
-
 }

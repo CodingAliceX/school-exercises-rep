@@ -1,1 +1,1 @@
-# schoolexc
+# School Excercise Repository <3

@@ -41,7 +41,7 @@ int main()
     {
         if(arrayd[i] == smallest_element)
         {
-             trovato = true;
+            trovato = true;
         }
         else
         {

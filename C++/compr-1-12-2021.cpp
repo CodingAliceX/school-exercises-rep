@@ -38,7 +38,7 @@ int main()
 		cout << "#ERRORE#: Perfavore reinserisci il tuo reddito! (Deve essere Maggiore di 0) : ";
 		cin >> imp;
 	}
-	if (imp == 0 && imp <= 10000)
+	if (imp > 0 && imp <= 10000)
 	{
 		imps = imp / 100 * FSA1;
 		cout << "IMPOSTA: (" << imp << " / " << "100) * " << FSA1 << endl;
